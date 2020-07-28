@@ -1,0 +1,102 @@
+@charset "utf-8";
+body{
+margin:0;
+background-color:rgb(230,211,200);
+}
+header{
+background-color:rgb(211,211,211);
+width:910px;
+height:40px;
+}
+h4{
+float: left;
+width:160px;
+margin: 0 0 0 20px;
+padding-top:8px;
+letter-spacing:5px;
+}
+ol > li{
+float:left;
+list-style: none;
+height:30px;
+margin:3px 0 0 50px;
+text-align: center;
+border-radius: 30px;
+}
+.likeA{
+width: 65px;
+transition: all 0.3s ease;
+}
+.likeA:hover{
+background-color:rgb(218,165,32);
+font-size: 20px;
+}
+.likeFi{
+width: 45px;
+transition: all 0.3s ease;
+}
+.likeFi:hover{
+background-color:rgb(0,206,209);
+font-size: 20px;
+}
+.likeFl{
+width: 65px;
+transition: all 0.3s ease;
+}
+.likeFl:hover{
+background-color:rgb(283,130,238);
+font-size: 20px;
+}
+p{
+background-color:rgb(211,211,211);
+width:910px;
+}
+img{
+width:200px;
+height:100px;
+margin-left: 100px;
+}
+button{
+position: relative;
+display: inline-block;
+width:100px;
+margin:0 0 0 200px;
+}
+form > .fish1 {
+margin-left:80px;
+}
+form > .fish2 {
+margin-left: 54px;
+}
+form > .fish3 {
+margin-left: 40px;
+}
+.animal > p{
+display: inline-block;
+margin: 0 0 0 100px;
+width:200px;
+height:50px;
+text-align: center;
+}
+.fish > p{
+display: inline-block;
+margin: 0 0 0 100px;
+width:200px;
+height:20px;
+text-align: center;
+}
+.flower > p{
+display: inline-block;
+margin: 0 0 0 100px;
+width:200px;
+height:20px;
+margin-left: 100px
+
+}
+footer{
+background-color:grey;
+width:910px;
+height:30px;
+padding-top:5px;
+text-align: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Ohsaki" />
+        <meta name="keywords" content="好きなもの" />
+	      <link rel="stylesheet" href="./style.css">
+        <title>三選</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h4>好きなもの三選</h4>
+            </div>
+                <div class="like">
+                    <ol>
+                        <li class="likeFl"><a href="#down1">Flower</a></li>
+                        <li class="likeA"><a href="#down2">Animal</a></li>
+                        <li class="likeFi"><a href="#down3">Fish</a></li>
+                  </ol>
+                </div>
+　　　　 </header>
+        <p><a id="down3">花</a></p>
+            <div>
+                <img src=./pictures/water-lily-1510707_640.jpg alt="すいれん" />
+                <img src=./pictures/sunflower-1621990_640.jpg alt="ひまわり" />
+                <img src=./pictures/morning-glory-620465_640.jpg alt="あさがお" />
+            </div>
+            <div class="flower">
+                <p>睡蓮</p>
+                <p>向日葵</p>
+                <p>朝顔</p>
+            </div>
+
+        <p><a id="down1">動物</a></p>
+            <div>
+                <img src=./pictures/elephant-1421167_640.jpg alt="象"/>
+                <img src="./pictures/giraffe-171318_640.jpg" alt="キリン"/>
+                <img src="./pictures/animal-1837164_640.jpg" alt="サイ"/>
+            </div>
+            <div class="animal">
+                <p>象<br>何回歯が生え変わる？</p>
+                <p>キリン<br>睡眠時間の長さは?</p>
+                <p>サイ<br>角は骨の変形？</p>
+            </div>
+            <div>
+                <button class="answer1" type="button">6回</button>
+              	<button class="answer2" type="button">30分以内</button>
+                <button class="answer3" type="button">いいえ</button>
+            </div>
+            <div>
+                <button class="wrong1" type="button" onclick="quiz(1);">3回</button>
+                <button class="wrong2" onclick="quiz(1);">1～2時間</button>
+                <button class="wrong3" onclick="quiz(1);">はい</button>
+            </div>
+
+      　<p><a id="down2">魚</a></p>
+            <div>
+                <img src=./pictures/koi-4521885_640.jpg alt="こい" />
+                <img src=./pictures/isolated-2350400_640.png alt="にじます" />
+                <img src=./pictures/striped-bass-1620075_640.jpg alt="しますずき" />
+            </div>
+            <div class="fish">
+                <p>鯉　何と読む?</p>
+                <p>虹鱒　何と読む?</p>
+                <p>縞鱸　何と読む?</p>
+            </div>
+            <form>
+                <label class="fish1">鯉:</label>
+                <input type="text" id="Carp" />
+                <input type="button" value="決定" onclick="quizA(0);" />
+                <label class="fish2">虹鱒:</label>
+                <input type="text" id="RainbowTrout" />
+                <input type="button" value="決定" onclick="quizB(1);" />
+                <label class="fish3">縞鱸:</label>
+                <input type="text" id="StripedBass" />
+                <input type="button" value="決定" onclick="quizC(2);" />
+            </form>
+      　<footer>
+            <div>当サイトの内容は常に正しいとは限りませんので自己責任の下ご利用ください</div>
+    　　</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
